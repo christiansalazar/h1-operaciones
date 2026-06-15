@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"version.json": "b84b530badce5f3b1f96d9d949c0847f",
+const RESOURCES = {"version.json": "939f6252e7a30879c06ceb4009a7a704",
 "flutter.js": "f393d3c16b631f36852323de8e583132",
 "index.html": "d1949641ebd6f66f9a7bfe0c6a559aed",
 "/": "d1949641ebd6f66f9a7bfe0c6a559aed",
@@ -18,7 +18,7 @@ const RESOURCES = {"version.json": "b84b530badce5f3b1f96d9d949c0847f",
 "canvaskit/chromium/canvaskit.js": "671c6b4f8fcc199dcc551c7bb125f239",
 "canvaskit/chromium/canvaskit.wasm": "b1ac05b29c127d86df4bcfbf50dd902a",
 "canvaskit/chromium/canvaskit.js.symbols": "a012ed99ccba193cf96bb2643003f6fc",
-"assets/pubspec.yaml": "7c8691e98a1dc0537c3e5757a56164aa",
+"assets/pubspec.yaml": "ff4e9955cab3d4f365399e1732e20afd",
 "assets/fonts/MaterialIcons-Regular.otf": "9ca989c4bbbd89c2ec233c638608fd68",
 "assets/assets/piem.png": "5a6c9ce1bd799299a51cab752966b437",
 "assets/assets/remocal.png": "add8d9d75f9073b09c4f9ef83a4e9367",
@@ -29,13 +29,13 @@ const RESOURCES = {"version.json": "b84b530badce5f3b1f96d9d949c0847f",
 "assets/NOTICES": "7d6f4a0c7c7c3a7351d1b97d6d38d0b8",
 "assets/AssetManifest.bin": "c20cd5c6d9d4f62e272e689f75f65215",
 "assets/AssetManifest.bin.json": "c9b29cbe5f607efdd468f1a154ad1cdf",
-"main.dart.js": "083c04becfcb203a4adc8ad9466bde27",
+"main.dart.js": "dbce559a2df02c70f0ad8a72285ecd0d",
 "manifest.json": "6edfee94e9910441a2c4bf612350dfb3",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"flutter_bootstrap.js": "9994f5d53f3c7d21161950d832d39efc"};
+"flutter_bootstrap.js": "845b7806afd981ef9aacdd9cd3e43861"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
