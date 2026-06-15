@@ -100607,7 +100607,7 @@ p="Editar Ticket "+(p==null?"":p)}p=A.q(p,q,q,q,q,q,q)
 s=A.a([],t.p)
 if(r.a.c!=null&&r.gacd())s.push(A.bB(q,q,B.ll,q,r.gas2(),q,q,"Eliminar ticket"))
 return A.dl(A.dc(s,B.w,q,0,q,q,p),B.ao,r.as0(),q,q,q)},
-as0(){var s,r,q,p,o,n,m,l,k=this,j=null,i="Descripci\xf3n"
+as0(){var s,r,q,p,o,n,m,l,k=this,j=null
 if(k.ax)return B.S
 if(k.ch!=null&&k.z==null)return k.as1()
 s=k.ab5()
@@ -100616,13 +100616,13 @@ q=k.abX()
 p=A.V(8)
 o=A.aC(B.r,1)
 n=t.p
-p=A.X(j,A.L(A.a([A.q(i,j,j,j,A.aW(j,B.L),j,j),B.B,A.bX(!1,k.f,B.lo,j,j,j,j,5,!1,j,j,j,j,B.E,j)],n),B.o,B.f,B.e),B.h,j,j,new A.a3(B.q,j,o,p,j,j,B.k),j,j,j,B.x,j,j,j)
+p=A.X(j,A.L(A.a([A.q("Descripci\xf3n",j,j,j,A.aW(j,B.L),j,j),B.B,A.bX(!1,k.f,B.lo,j,j,j,j,5,!1,j,j,j,j,B.E,j)],n),B.o,B.f,B.e),B.h,j,j,new A.a3(B.q,j,o,p,j,j,B.k),j,j,j,B.x,j,j,j)
 o=A.V(8)
 m=A.aC(B.r,1)
 o=A.X(j,A.L(A.a([A.q("Diagnostico",j,j,j,A.aW(j,B.L),j,j),B.B,A.bX(!1,k.r,B.lo,j,j,j,j,5,!1,j,j,j,j,B.E,j)],n),B.o,B.f,B.e),B.h,j,j,new A.a3(B.q,j,m,o,j,j,B.k),j,j,j,B.x,j,j,j)
 m=A.V(8)
 l=A.aC(B.r,1)
-m=A.a([s,B.v,r,B.v,q,B.v,p,B.v,o,B.v,A.X(j,A.L(A.a([A.q(i,j,j,j,A.aW(j,B.L),j,j),B.B,A.bX(!1,k.w,B.lo,j,j,j,j,5,!1,j,j,j,j,B.E,j)],n),B.o,B.f,B.e),B.h,j,j,new A.a3(B.q,j,l,m,j,j,B.k),j,j,j,B.x,j,j,j)],n)
+m=A.a([s,B.v,r,B.v,q,B.v,p,B.v,o,B.v,A.X(j,A.L(A.a([A.q("Soluci\xf3n",j,j,j,A.aW(j,B.L),j,j),B.B,A.bX(!1,k.w,B.lo,j,j,j,j,5,!1,j,j,j,j,B.E,j)],n),B.o,B.f,B.e),B.h,j,j,new A.a3(B.q,j,l,m,j,j,B.k),j,j,j,B.x,j,j,j)],n)
 s=k.ch
 if(s!=null)m.push(new A.an(B.d_,A.q(s,j,j,j,A.am(j,j,B.C,j,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j),j))
 m.push(B.cl)
