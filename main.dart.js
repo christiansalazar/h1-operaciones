@@ -108972,7 +108972,7 @@ r.d=new A.vw(s)
 r.e=new A.Uy(s)
 s=t.s
 r.as=A.b(["piem","remocal"],s)
-r.at=A.b(["listar_clientes","ver_cliente","crear_cliente","editar_cliente","listar_cotizaciones","ver_cotizacion","crear_cotizacion","editar_cotizacion","listar_tickets","ver_ticket","ver_cualquier_ticket","crear_ticket","editar_ticket","editar_historia_ticket","crear_anotacion_con_seguimiento","listar_contratos","ver_contrato","crear_contrato","editar_contrato"],s)
+r.at=A.b(["listar_clientes","ver_cliente","crear_cliente","editar_cliente","listar_cotizaciones","ver_cotizacion","crear_cotizacion","editar_cotizacion","listar_tickets","ver_ticket","ver_cualquier_ticket","crear_ticket","editar_ticket","editar_historia_ticket","crear_anotacion_con_seguimiento","listar_contratos","ver_contrato","crear_contrato","editar_contrato","listar_facturas","editar_factura","eliminar_factura"],s)
 r.pH()
 r.Dk()},
 pH(){var s=0,r=A.r(t.H),q=1,p=[],o=this,n,m,l,k,j
@@ -109998,14 +109998,15 @@ if(l.b===200){j=l
 j=A.Sx(B.D.ah(0,A.c7(A.c6(j.e)).ah(0,j.w)))
 q=j
 s=1
-break}else{j=A.a3("Error al actualizar factura: "+l.b)
+break}else if(l.b===403){j=A.a3("No tiene permiso para editar facturas")
+throw A.d(j)}else{j=A.a3(""+l.b)
 throw A.d(j)}p=2
 s=6
 break
 case 4:p=3
 f=o.pop()
 k=A.I(f)
-j=A.a3("Error de conexi\xf3n: "+A.k(k))
+j=A.a3(A.k(k))
 throw A.d(j)
 s=6
 break
